@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) 
+    {
+
+    Scanner entrada = new Scanner(System.in);
+
+    int num_1;
+    int num_2;
+
+    System.out.println("Digite el primer número:");
+    num_1 = entrada.nextInt();
+
+    System.out.println("Digite el segundo número:");
+    num_2 = entrada.nextInt();
+
+    sum = num_1 + num_2;
+    System.out.println("El resultado es:" + sum);
+    entrada.close();
+    }
+}
