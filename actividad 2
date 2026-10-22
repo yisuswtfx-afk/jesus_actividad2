@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) 
+    {
+
+    Scanner entrada = new Scanner(System.in);
+
+    int distancia = 0;
+    int conver_2 = 0;
+    int conver = 0;
+    
+    System.out.print("Ingrese la distancia en kilometros: ");
+    distancia = entrada.nextInt();
+
+    conver = distancia * 1000;
+    System.out.println("El equivalente a metros es: " + conver);
+    
+    conver_2 = conver * 1000;
+    System.out.println("El equivalente a centimetros es: " + conver_2);
+    
+    
+    entrada.close();
+    }
+}
